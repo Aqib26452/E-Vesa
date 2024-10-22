@@ -1,0 +1,40 @@
+.setHead {
+  color: var(--Black, #000);
+  font-family: "Nunito Variable";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90.7%;
+  letter-spacing: -1.92px;
+  text-transform: capitalize;
+}
+span {
+  color: var(--Primary, #0575e6);
+  font-family: "Nunito Variable";
+  font-size: 44px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 117.7%;
+  letter-spacing: -1.92px;
+  text-transform: capitalize;
+}
+.bgsetimgg {
+  /* border-radius: 862px; */
+  opacity: 0.66;
+  background: var(
+    --Gradient,
+    linear-gradient(270deg, #00f260 0%, #0575e6 100%)
+  );
+  /* filter: blur(10px); */
+  backdrop-filter: blur(66.5px);
+
+  /* filter: blur(283.25px); */
+}
+/* .setPicFirstSection {
+  width: 500px;
+  height: 500px;
+  top: 215px;
+  left: 1046px;
+  gap: 0px;
+  opacity: 0px;
+} */

@@ -1,0 +1,21 @@
+.thisbgwhiteimg {
+  position: relative;
+  background: white;
+  transition: background-size 3s ease-out; /* Smooth transition effect */
+}
+
+.img-bg-blue {
+  background: radial-gradient(
+    circle at center,
+    #3b82f6 0%,
+    transparent 100%
+  ); /* bg-blue-500 */
+}
+.thisbgwhiteimg:hover {
+  /* bg-blue-500 */
+  background: radial-gradient(circle at center, #3b82f6 0%, transparent 100%);
+}
+
+.thisbgwhiteimg:hover .img-bg-blue {
+  background: white; /* bg-blue-700 */
+}

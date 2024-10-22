@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.bodycolbg {
+  background-color: #f4f4f4;
+}
+
+.btnBgcolorr {
+  background: linear-gradient(90deg, #00f260 0%, #0575e6 100%);
+  border-radius: 10px;
+  width: 209px;
+  height: 60px;
+  flex-shrink: 0;
+  transition: 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+}
+.btnBgcolorr:hover img {
+  transform: translateX(200px);
+  opacity: 0.8;
+}
+.btnBgcolorr img {
+  transition: transform 0.7s ease, opacity 0.3s ease;
+}
+
+.HoverEffectUL li {
+  color: black;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
+.HoverEffectUL .setHoverLine {
+  width: 0;
+  height: 0px;
+  background-color: transparent;
+  transition: all 0.5s ease;
+}
+.HoverEffectUL:hover li {
+  color: #0575e6;
+}
+.HoverEffectUL:hover .setHoverLine {
+  width: 80%;
+  height: 2px;
+  background-color: #0575e6;
+}
+
+.SetHeadP {
+  color: var(--Primary, #0575e6);
+  font-family: Pacifico;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.7%; /* 40.018px */
+  letter-spacing: -1.02px;
+  text-transform: capitalize;
+}
+
+.Gradient-sett {
+  border-radius: 50px;
+  background: linear-gradient(220deg, #00f260 11.8%, #0575e6 96.03%);
+}/*# sourceMappingURL=style.css.map */
